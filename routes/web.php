@@ -27,4 +27,9 @@ Route::prefix('construction')->group(function () {
         Route::get('electric-scooter/{model}/{standar}/{power}', 'AbstractFactoryController@electricScooter');
         Route::get('gasoline-scooter/{model}/{standar}/{power}', 'AbstractFactoryController@gasolineScooter');
     });
+
+    Route::prefix('factory')->group(function () {
+        Route::get('discount-client/{quantity}', 'FactoryController@discountClient');
+        Route::get('credit-client/{quantity}', 'FactoryController@creditClient');
+    });
 });

@@ -44,7 +44,7 @@ class AbstractFactoryController
         $vehicle = $this->electricVehicleFactory->createCar($model, $color, $power, $space);
 
         return response()->json([
-            'feacture' => $vehicle->showFeatures()
+            'feature' => $vehicle->showFeatures()
         ]);
     }
 
@@ -61,7 +61,7 @@ class AbstractFactoryController
         $vehicle = $this->gasolineVehicleFactory->createCar($model, $color, $power, $space);
 
         return response()->json([
-            'feacture' => $vehicle->showFeatures()
+            'feature' => $vehicle->showFeatures()
         ]);
     }
 
@@ -77,7 +77,7 @@ class AbstractFactoryController
         $vehicle = $this->electricVehicleFactory->createScooter($model, $color, $power);
 
         return response()->json([
-            'feacture' => $vehicle->showFeatures()
+            'feature' => $vehicle->showFeatures()
         ]);
     }
 
@@ -93,7 +93,7 @@ class AbstractFactoryController
         $vehicle = $this->gasolineVehicleFactory->createScooter($model, $color, $power);
 
         return response()->json([
-            'feacture' => $vehicle->showFeatures()
+            'feature' => $vehicle->showFeatures()
         ]);
     }
 }
