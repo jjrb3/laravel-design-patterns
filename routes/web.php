@@ -32,4 +32,8 @@ Route::prefix('construction')->group(function () {
         Route::get('discount-client/{quantity}', 'FactoryController@discountClient');
         Route::get('credit-client/{quantity}', 'FactoryController@creditClient');
     });
+
+    Route::prefix('builder')->group(function () {
+        Route::get('documentation-vehicle/{type}/{name}/{email}', 'BuilderController@getDocumentation');
+    });
 });
