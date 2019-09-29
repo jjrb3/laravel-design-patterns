@@ -36,4 +36,8 @@ Route::prefix('construction')->group(function () {
     Route::prefix('builder')->group(function () {
         Route::get('documentation-vehicle/{type}/{name}/{email}', 'BuilderController@getDocumentation');
     });
+
+    Route::prefix('prototype')->group(function () {
+        Route::get('books/', 'PrototypeController@getBooks');
+    });
 });
