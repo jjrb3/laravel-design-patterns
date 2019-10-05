@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Creational;
 
 
 use App\Builders\DocumentationBuilder;
+use Illuminate\Http\JsonResponse;
 
 /**
  * Class AbstractFactoryController
@@ -29,9 +30,9 @@ class BuilderController
      * @param int $type
      * @param string $name
      * @param string $email
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function getDocumentation(int $type, string $name, string $email)
+    public function getDocumentation(int $type, string $name, string $email): JsonResponse
     {
         $documentation = ($this->documentationBuilder)
             ->setType($type)

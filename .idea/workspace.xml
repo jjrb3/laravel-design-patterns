@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27687863-a1c3-4821-9f68-bb6939908c6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-design-patterns.iml" afterDir="false" />
+    <list default="true" id="27687863-a1c3-4821-9f68-bb6939908c6d" name="Default Changelist" comment="[feat]: Updated Builder Pattern.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BuilderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Creational/BuilderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Creational/BuilderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Creational/BuilderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Creational/PrototypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Creational/PrototypeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Creational/SingletonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Creational/SingletonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FactoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Creational/FactoryController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/PrototypeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+            <state relative-caret-position="-554">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
                 <element signature="e#52#88#0#PHP" expanded="true" />
               </folding>
@@ -52,10 +53,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/SingletonController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="e#52#94#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="345">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -63,8 +76,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/BuilderController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="267">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding>
+                <element signature="e#52#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/FactoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/FactoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-258">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding>
+                <element signature="e#52#97#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,13 +161,14 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PrototypeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AbstractFactoryController.php" />
         <option value="$PROJECT_DIR$/app/Singletons/WhiteDocumentSingleton.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/SingletonController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/SingletonController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/PrototypeController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/PrototypeController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/BuilderController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/FactoryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/BuilderController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/PrototypeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/SingletonController.php" />
       </list>
     </option>
   </component>
@@ -364,7 +402,7 @@
       <workItem from="1569759266756" duration="59000" />
       <workItem from="1569759771461" duration="13851000" />
       <workItem from="1570064610683" duration="73000" />
-      <workItem from="1570285488075" duration="5417000" />
+      <workItem from="1570285488075" duration="5966000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]: Added Abstract Factory Pattern.">
       <created>1565470231994</created>
@@ -415,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570292731337</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[feat]: Updated Builder Pattern.">
+      <created>1570294882486</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570294882486</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21854000" />
+    <option name="totallyTimeSpent" value="22403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -482,7 +527,8 @@
     <MESSAGE value="[feat]: Added Singleton Pattern." />
     <MESSAGE value="[test]: Added Singleton Pattern." />
     <MESSAGE value="[feat]: Updated Singleton Pattern." />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: Updated Singleton Pattern." />
+    <MESSAGE value="[feat]: Updated Builder Pattern." />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: Updated Builder Pattern." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/AbstractFactory/Vehicles/Scooter/GasolineScooter.php">
@@ -615,16 +661,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Prototypes/EnrollmentRequest.php" />
     <entry file="file://$PROJECT_DIR$/app/Prototypes/Order.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FactoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#41#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Prototypes/SQLBookPrototype.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -636,13 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/FactoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -670,16 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/SingletonController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="e#52#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Singletons/WhiteDocumentSingleton.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -701,27 +720,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/PrototypeController.php">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/FactoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/FactoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
-            <element signature="e#52#88#0#PHP" expanded="true" />
+            <element signature="e#52#97#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/BuilderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="267">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="e#52#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/PrototypeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="-554">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#52#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/SingletonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#52#94#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Creational;
 
 use App\Prototypes\PHPBookPrototype;
 use App\Prototypes\SQLBookPrototype;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\JsonResponse;
 
 /**
  * Class BuilderController
@@ -48,9 +48,9 @@ class PrototypeController
     }
 
     /**
-     * @return Response
+     * @return JsonResponse
      */
-    public function getBooks(): Response
+    public function getBooks(): JsonResponse
     {
         $bookOne   = clone $this->sqlBookPrototype;
         $bookTwo   = clone $this->phpBookPrototype;

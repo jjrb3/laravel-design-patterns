@@ -4,7 +4,7 @@
 namespace App\Http\Controllers\Creational;
 
 use App\Singletons\WhiteDocumentSingleton;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\JsonResponse;
 
 /**
  * Class SingletonController
@@ -29,9 +29,9 @@ class SingletonController
     }
 
     /**
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function getWhiteDocument(): Response
+    public function getWhiteDocument(): JsonResponse
     {
         return response()->json([
             'messages' => $this->messages

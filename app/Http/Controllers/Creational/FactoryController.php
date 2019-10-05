@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Creational;
 
 
 use App\Factories\Orders\Client\CreditClient;
 use App\Factories\Orders\Client\DiscountClient;
+use Illuminate\Http\JsonResponse;
 
 /**
  * Class AbstractFactoryController
@@ -33,9 +34,9 @@ class FactoryController
 
     /**
      * @param float $quantity
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function discountClient(float $quantity)
+    public function discountClient(float $quantity): JsonResponse
     {
         return response()->json([
             'pays' => $this->discountClient->newOrder($quantity)
@@ -44,9 +45,9 @@ class FactoryController
 
     /**
      * @param float $quantity
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function creditClient(float $quantity)
+    public function creditClient(float $quantity): JsonResponse
     {
         return response()->json([
             'pays' => $this->creditClient->newOrder($quantity)
