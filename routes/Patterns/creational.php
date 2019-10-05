@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,5 +12,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-include 'Patterns/creational.php';
-include 'Patterns/structural.php';
+Route::prefix('structural')->group(function () {
+
+    // Adapter pattern
+    Route::prefix('adapter')->group(function () {
+
+
+    });
+});
