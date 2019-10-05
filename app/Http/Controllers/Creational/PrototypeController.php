@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
-
+namespace App\Http\Controllers\Creational;
 
 
 use App\Prototypes\PHPBookPrototype;
 use App\Prototypes\SQLBookPrototype;
+use Symfony\Component\HttpFoundation\Response;
 
 /**
  * Class BuilderController
@@ -13,10 +13,19 @@ use App\Prototypes\SQLBookPrototype;
  */
 class PrototypeController
 {
+    /**
+     * @var string
+     */
     public const BOOK_ONE = 'SQL For Cats';
 
+    /**
+     * @var string
+     */
     public const BOOK_TWO = 'OReilly Learning PHP 5';
 
+    /**
+     * @var string
+     */
     public const BOOK_THREE = 'OReilly Learning SQL';
 
     /**
@@ -39,9 +48,9 @@ class PrototypeController
     }
 
     /**
-     * @return \Illuminate\Http\JsonResponse
+     * @return Response
      */
-    public function getBooks()
+    public function getBooks(): Response
     {
         $bookOne   = clone $this->sqlBookPrototype;
         $bookTwo   = clone $this->phpBookPrototype;

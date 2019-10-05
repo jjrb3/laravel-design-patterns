@@ -3,8 +3,6 @@
 namespace Tests\Feature\app\Http\Controllers;
 
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class PrototypeController extends TestCase
 {
@@ -15,13 +13,22 @@ class PrototypeController extends TestCase
      */
     public function testDiscountClient()
     {
-        $response = $this->get('/construction/prototype/books');
+        $responsePrototype = $this->get('/construction/prototype/books');
 
-        dd($response);
-
-        $response->assertJson([
-            'pays' => [
-                0 => 'El pago del pedido al contado de: 2,000 se ha realizado'
+        $responsePrototype->assertExactJson([
+            'books' => [
+                'SQL For Cats' => [
+                    'title' => 'SQL For Cats',
+                    'topic' => 'SQL'
+                ],
+                'OReilly Learning PHP 5' => [
+                    'title' => 'OReilly Learning PHP 5',
+                    'topic' => 'PHP'
+                ],
+                'OReilly Learning SQL' => [
+                    'title' => 'OReilly Learning SQL',
+                    'topic' => 'SQL'
+                ]
             ]
         ]);
     }
