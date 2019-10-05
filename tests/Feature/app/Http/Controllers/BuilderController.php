@@ -3,9 +3,11 @@
 namespace Tests\Feature\app\Http\Controllers;
 
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
+/**
+ * Class BuilderController
+ * @package Tests\Feature\app\Http\Controllers
+ */
 class BuilderController extends TestCase
 {
     /**
@@ -15,16 +17,12 @@ class BuilderController extends TestCase
      */
     public function testCreatePdf()
     {
-        $response = $this->get(
+        $responseBuilder = $this->get(
             '/construction/builder/documentation-vehicle/1/Jeremy/jjrb6@hotmail.com'
         );
 
-        dd($response);
-
-        $response->assertJson([
-            'pays' => [
-                0 => 'El pago del pedido al contado de: 2,000 se ha realizado'
-            ]
+        $responseBuilder->assertExactJson([
+            'documentation' => "Name: Jeremy\n\nEste documento es de ejemplo en formato pdf\n\nEmail: jjrb6@hotmail.com"
         ]);
     }
 }
