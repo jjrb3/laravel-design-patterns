@@ -17,7 +17,7 @@ class SingletonController extends TestCase
      */
     public function testExample()
     {
-        $responseSingleton = $this->get('/construction/singleton/white-document');
+        $responseSingleton = $this->get(route('whiteDocument'));
 
         $responseSingleton->assertExactJson([
             'messages' => [

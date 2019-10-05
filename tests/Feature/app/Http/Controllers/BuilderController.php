@@ -18,7 +18,11 @@ class BuilderController extends TestCase
     public function testCreatePdf()
     {
         $responseBuilder = $this->get(
-            '/construction/builder/documentation-vehicle/1/Jeremy/jjrb6@hotmail.com'
+            route('documentationVehicle', [
+                'type' => 1,
+                'name' => 'Jeremy',
+                'email' => 'jjrb6@hotmail.com'
+            ])
         );
 
         $responseBuilder->assertExactJson([

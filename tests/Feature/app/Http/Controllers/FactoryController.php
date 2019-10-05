@@ -4,6 +4,10 @@ namespace Tests\Feature\app\Http\Controllers;
 
 use Tests\TestCase;
 
+/**
+ * Class FactoryController
+ * @package Tests\Feature\app\Http\Controllers
+ */
 class FactoryController extends TestCase
 {
     /**
@@ -13,7 +17,7 @@ class FactoryController extends TestCase
      */
     public function testDiscountClient()
     {
-        $response = $this->get('/construction/factory/discount-client/2000.00');
+        $response = $this->get(route('discountClient', ['quantity' => 2000.00]));
 
         $response->assertJson([
             'pays' => [
@@ -29,7 +33,7 @@ class FactoryController extends TestCase
      */
     public function testCreditClient()
     {
-        $response = $this->get('/construction/factory/credit-client/13000.00');
+        $response = $this->get(route('creditClient', ['quantity' => 13000.00]));
 
         $response->assertJson([
             'pays' => []

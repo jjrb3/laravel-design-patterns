@@ -64,6 +64,7 @@ Route::prefix('construction')->group(function () {
         )->name('documentationVehicle');
     });
 
+    // Prototype pattern
     Route::prefix('prototype')->group(function () {
 
         Route::get(
@@ -72,6 +73,7 @@ Route::prefix('construction')->group(function () {
         )->name('books');
     });
 
+    // Singleton pattern
     Route::prefix('singleton')->group(function () {
 
         Route::get(

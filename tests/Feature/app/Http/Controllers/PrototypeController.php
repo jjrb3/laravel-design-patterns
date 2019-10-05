@@ -4,6 +4,10 @@ namespace Tests\Feature\app\Http\Controllers;
 
 use Tests\TestCase;
 
+/**
+ * Class PrototypeController
+ * @package Tests\Feature\app\Http\Controllers
+ */
 class PrototypeController extends TestCase
 {
     /**
@@ -13,7 +17,7 @@ class PrototypeController extends TestCase
      */
     public function testDiscountClient()
     {
-        $responsePrototype = $this->get('/construction/prototype/books');
+        $responsePrototype = $this->get(route('books'));
 
         $responsePrototype->assertExactJson([
             'books' => [
