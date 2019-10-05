@@ -38,6 +38,10 @@ Route::prefix('construction')->group(function () {
     });
 
     Route::prefix('prototype')->group(function () {
-        Route::get('books/', 'PrototypeController@getBooks');
+        Route::get('books', 'PrototypeController@getBooks');
+    });
+
+    Route::prefix('singleton')->group(function () {
+        Route::get('white-document', 'Creational\SingletonController@getWhiteDocument');
     });
 });
