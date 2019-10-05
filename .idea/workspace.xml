@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27687863-a1c3-4821-9f68-bb6939908c6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/routes/Patterns/constructions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/AbstractFactoryTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AbstractFactoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Creational/AbstractFactoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/BuilderControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/FactoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/FactoryControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/PrototypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/PrototypeControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/SingletonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/SingletonControllerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,91 +28,61 @@
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/PrototypeControllerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/Patterns/constructions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/AbstractFactoryTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/BuilderControllerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/Patterns/constructions.php">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/SingletonControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="315">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/PrototypeController.php">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/FactoryControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/PrototypeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-554">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="e#52#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/SingletonController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding>
-                <element signature="e#52#94#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/BuilderController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-              <folding>
-                <element signature="e#52#90#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/FactoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/FactoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-258">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="e#52#97#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -121,6 +95,8 @@
       <find>array</find>
       <find>array:2</find>
       <find>&quot;</find>
+      <find>creditClient</find>
+      <find>quantity</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -135,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/AbstractFactory/Vehicles/Abstracts/CarAbstract.php" />
         <option value="$PROJECT_DIR$/app/AbstractFactory/Vehicles/Abstracts/ScooterAbstract.php" />
         <option value="$PROJECT_DIR$/app/AbstractFactory/Vehicles/Car/GasolineCar.php" />
         <option value="$PROJECT_DIR$/app/AbstractFactory/Vehicles/Car/ElectricCar.php" />
@@ -153,7 +128,6 @@
         <option value="$PROJECT_DIR$/app/Factories/Orders/Client/CreditClient.php" />
         <option value="$PROJECT_DIR$/app/Factories/Orders/Abstracts/ClientAbstract.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FactoryController.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/FactoryController.php" />
         <option value="$PROJECT_DIR$/app/Builders/DocumentationBuilder.php" />
         <option value="$PROJECT_DIR$/app/Builders/Abstracts/DocumentationBuilderAbstract.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BuilderController.php" />
@@ -168,15 +142,26 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PrototypeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AbstractFactoryController.php" />
         <option value="$PROJECT_DIR$/app/Singletons/WhiteDocumentSingleton.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/SingletonController.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/PrototypeController.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/FactoryController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/BuilderController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/PrototypeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/SingletonController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/SingletonController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/PrototypeController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/FactoryController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php" />
         <option value="$PROJECT_DIR$/routes/Patterns/constructions.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/FactoryControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/PrototypeControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/SingletonControllerTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Creational/AbstractFactoryController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/AbstractFactoryTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/BuilderControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/FactoryControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/PrototypeControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/SingletonControllerTest.php" />
       </list>
     </option>
   </component>
@@ -360,6 +345,22 @@
             <path>
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -436,6 +437,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Creational" />
+      <recent name="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational" />
       <recent name="$PROJECT_DIR$/app/Factories/Oders" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -472,7 +474,7 @@
       <workItem from="1569759266756" duration="59000" />
       <workItem from="1569759771461" duration="13851000" />
       <workItem from="1570064610683" duration="73000" />
-      <workItem from="1570285488075" duration="7181000" />
+      <workItem from="1570285488075" duration="10754000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]: Added Abstract Factory Pattern.">
       <created>1565470231994</created>
@@ -537,11 +539,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570295262467</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[feat]: Added name to the routes.">
+      <created>1570298895578</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570298895578</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[feat]: Added routes to test.">
+      <created>1570300470788</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570300470788</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23618000" />
+    <option name="totallyTimeSpent" value="27191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -559,11 +575,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.27831325" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.30963856" />
-      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49928468" weight="0.46385542" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.30963856" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.5007153" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -594,6 +610,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
@@ -606,7 +648,9 @@
     <MESSAGE value="[feat]: Updated Singleton Pattern." />
     <MESSAGE value="[feat]: Updated Builder Pattern." />
     <MESSAGE value="[feat]: Updated Factory Pattern." />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: Updated Factory Pattern." />
+    <MESSAGE value="[feat]: Added name to the routes." />
+    <MESSAGE value="[feat]: Added routes to test." />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: Added routes to test." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/AbstractFactory/Vehicles/Scooter/GasolineScooter.php">
@@ -753,16 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AbstractFactoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="63" lean-forward="true" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
-          <folding>
-            <element signature="e#41#107#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Prototypes/PHPBookPrototype.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -774,20 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/PrototypeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/FactoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -831,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/BuilderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -852,24 +865,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/SingletonController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CreatesApplication.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/AbstractFactoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding>
+            <element signature="e#52#118#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/Patterns/constructions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="453">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/AbstractFactoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/BuilderControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/FactoryControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/PrototypeControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/SingletonControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
         </state>
       </provider>
     </entry>

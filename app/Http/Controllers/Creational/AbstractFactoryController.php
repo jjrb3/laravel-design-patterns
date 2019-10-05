@@ -1,10 +1,11 @@
 <?php
 
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Creational;
 
 use App\AbstractFactory\Vehicles\Factories\ElectricVehicleFactory;
 use App\AbstractFactory\Vehicles\Factories\GasolineVehicleFactory;
+use Illuminate\Http\JsonResponse;
 
 /**
  * Class AbstractFactoryController
@@ -37,9 +38,9 @@ class AbstractFactoryController
      * @param $power
      * @param $space
      *
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function electricCar($model, $color, $power, $space)
+    public function electricCar($model, $color, $power, $space): JsonResponse
     {
         $vehicle = $this->electricVehicleFactory->createCar($model, $color, $power, $space);
 
@@ -54,9 +55,9 @@ class AbstractFactoryController
      * @param $power
      * @param $space
      *
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function gasolineCar($model, $color, $power, $space)
+    public function gasolineCar($model, $color, $power, $space): JsonResponse
     {
         $vehicle = $this->gasolineVehicleFactory->createCar($model, $color, $power, $space);
 
@@ -70,9 +71,9 @@ class AbstractFactoryController
      * @param $color
      * @param $power
      *
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function electricScooter($model, $color, $power)
+    public function electricScooter($model, $color, $power): JsonResponse
     {
         $vehicle = $this->electricVehicleFactory->createScooter($model, $color, $power);
 
@@ -86,9 +87,9 @@ class AbstractFactoryController
      * @param $color
      * @param $power
      *
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function gasolineScooter($model, $color, $power)
+    public function gasolineScooter($model, $color, $power): JsonResponse
     {
         $vehicle = $this->gasolineVehicleFactory->createScooter($model, $color, $power);
 
