@@ -1,12 +1,12 @@
 <?php
+
 namespace App\Factories\Orders\Order;
 
 use App\Factories\Orders\Abstracts\OrderAbstract;
 
 /**
- * Class CreditOrder
- *
- * @package Factory\Orders\Order
+ * Class DiscountOrder
+ * @package App\Factories\Orders\Order
  */
 class DiscountOrder extends OrderAbstract
 {
