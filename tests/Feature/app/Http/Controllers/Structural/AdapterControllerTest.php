@@ -2,6 +2,7 @@
 
 namespace Tests\Feature\app\Http\Controllers\Structural;
 
+use Illuminate\Contracts\Container\BindingResolutionException;
 use App\Http\Controllers\Structural\AdapterController;
 use App\UseCases\ManageDocuments\GetDocumentUseCase;
 use Tests\TestCase;
@@ -23,6 +24,9 @@ class AdapterControllerTest extends TestCase
      */
     private $adapterController;
 
+    /**
+     * @throws BindingResolutionException
+     */
     protected function setUp(): void
     {
         parent::setUp();
@@ -34,7 +38,7 @@ class AdapterControllerTest extends TestCase
      *
      * @return void
      */
-    public function testPdfFormatAndDraw()
+    public function testPdfFormatAndDraw(): void
     {
         $pdf = $this->adapterController->getDocument(
             self::CONTENT,
@@ -52,7 +56,7 @@ class AdapterControllerTest extends TestCase
      *
      * @return void
      */
-    public function testHtmlFormatAndDraw()
+    public function testHtmlFormatAndDraw(): void
     {
         $pdf = $this->adapterController->getDocument(
             self::CONTENT,
@@ -70,7 +74,7 @@ class AdapterControllerTest extends TestCase
      *
      * @return void
      */
-    public function testHtmlFormatAndPrint()
+    public function testHtmlFormatAndPrint(): void
     {
         $pdf = $this->adapterController->getDocument(
             self::CONTENT,
@@ -88,7 +92,7 @@ class AdapterControllerTest extends TestCase
      *
      * @return void
      */
-    public function testPdfFormatAndPrint()
+    public function testPdfFormatAndPrint(): void
     {
         $pdf = $this->adapterController->getDocument(
             self::CONTENT,

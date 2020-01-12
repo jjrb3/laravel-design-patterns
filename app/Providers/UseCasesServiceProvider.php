@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\UseCases\Forms\GetFormUseCase;
+use App\UseCases\Forms\Interfaces\GetFormUseCaseInterface;
 use App\UseCases\ManageDocuments\GetDocumentUseCase;
 use App\UseCases\ManageDocuments\Interfaces\GetDocumentUseCaseInterface;
 use Illuminate\Support\ServiceProvider;
@@ -17,7 +19,8 @@ class UseCasesServiceProvider extends ServiceProvider
      * @var array
      */
     public $classes = [
-        GetDocumentUseCaseInterface::class => GetDocumentUseCase::class
+        GetDocumentUseCaseInterface::class => GetDocumentUseCase::class,
+        GetFormUseCaseInterface::class => GetFormUseCase::class
     ];
 
     /**

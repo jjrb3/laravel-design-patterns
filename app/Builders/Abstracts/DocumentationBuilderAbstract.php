@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Builders\Abstracts;
 
 use App\Builders\DocumentationBuilder;
