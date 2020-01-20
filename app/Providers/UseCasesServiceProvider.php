@@ -6,6 +6,8 @@ use App\UseCases\Forms\GetFormUseCase;
 use App\UseCases\Forms\Interfaces\GetFormUseCaseInterface;
 use App\UseCases\ManageDocuments\GetDocumentUseCase;
 use App\UseCases\ManageDocuments\Interfaces\GetDocumentUseCaseInterface;
+use App\UseCases\MarkdownFormat\DisplayCommentAsAWebsiteUseCase;
+use App\UseCases\MarkdownFormat\Interfaces\DisplayCommentAsAWebsiteUseCaseInterface;
 use App\UseCases\ProductForm\GetProductFormUseCase;
 use App\UseCases\ProductForm\Interfaces\GetProductFormUseCaseInterface;
 use Illuminate\Support\ServiceProvider;
@@ -23,7 +25,8 @@ class UseCasesServiceProvider extends ServiceProvider
     public $classes = [
         GetDocumentUseCaseInterface::class => GetDocumentUseCase::class,
         GetFormUseCaseInterface::class => GetFormUseCase::class,
-        GetProductFormUseCaseInterface::class => GetProductFormUseCase::class
+        GetProductFormUseCaseInterface::class => GetProductFormUseCase::class,
+        DisplayCommentAsAWebsiteUseCaseInterface::class => DisplayCommentAsAWebsiteUseCase::class
     ];
 
     /**
