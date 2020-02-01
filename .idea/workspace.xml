@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27687863-a1c3-4821-9f68-bb6939908c6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Structural/FacadeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/UseCases/WebServices/CatalogueUseCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/UseCases/WebServices/DocumentManagementUseCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/UseCases/WebServices/FacadeWebServiceUseCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/CatalogueUseCaseInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/DocumentManagementUseCaseInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/FacadeWebServiceUseCaseInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/UseCases/WebServices/VehicleDescriptionUseCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FacadeControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Structural/FlyweightController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/OptionFactoryUseCaseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/VehicleOptionUseCaseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/VehicleRequestUseCaseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/UseCases/Vehicles/OptionFactoryUseCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/UseCases/Vehicles/VehicleOptionUseCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/UseCases/Vehicles/VehicleRequestUseCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FlyweightControllerTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php" afterDir="false" />
     </list>
@@ -31,13 +30,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FacadeControllerTest.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FlyweightControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="420">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#65#127#0#PHP" expanded="true" />
+                <element signature="e#65#121#0#PHP" expanded="true" />
+                <element signature="e#285#537#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Structural/FlyweightController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+              <folding>
+                <element signature="e#51#118#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/UseCases/Vehicles/VehicleRequestUseCase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#41#108#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,9 +82,11 @@
       <find>app\Http\Controllers\Structural\AdapterController</find>
       <find>manageIndicatedArea</find>
       <find>InputUseCase</find>
+      <find>$this-&gt;vehicleRequestUseCase</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
+      <replace>$vehicleRequest</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/Factories/Orders</dir>
@@ -72,15 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/UseCases/ManageDocuments/GetDocumentUseCase.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/ManageDocuments/DocumentsHtmlUseCase.php" />
-        <option value="$PROJECT_DIR$/app/Builders/Abstracts/DocumentationBuilderAbstract.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/Forms/Interfaces/ImplementationUseCaseInterface.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/Forms/Exceptions/AppleFormException.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/Forms/Exceptions/HtmlFormException.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/Forms/AppleFormUseCase.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/Forms/Interfaces/GetFormUseCaseInterface.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/Forms/Exceptions/GetFormException.php" />
         <option value="$PROJECT_DIR$/app/UseCases/Forms/Countries/EnrollmentPortugal.php" />
         <option value="$PROJECT_DIR$/app/UseCases/Forms/GetFormUseCase.php" />
         <option value="$PROJECT_DIR$/app/UseCases/Forms/HtmlFormUseCase.php" />
@@ -116,13 +133,22 @@
         <option value="$PROJECT_DIR$/app/UseCases/WebServices/VehicleDescriptionUseCase.php" />
         <option value="$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/CatalogueUseCaseInterface.php" />
         <option value="$PROJECT_DIR$/app/UseCases/WebServices/DocumentManagementUseCase.php" />
-        <option value="$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/DocumentManagementUseCaseInterface.php" />
         <option value="$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/FacadeWebServiceUseCaseInterface.php" />
         <option value="$PROJECT_DIR$/app/UseCases/WebServices/FacadeWebServiceUseCase.php" />
         <option value="$PROJECT_DIR$/app/UseCases/WebServices/CatalogueUseCase.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Structural/FacadeController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FacadeControllerTest.php" />
+        <option value="$PROJECT_DIR$/app/UseCases/Vehicles/VehicleFactoryUseCase.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FlyweightControllerTest.php" />
+        <option value="$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/OptionFactoryUseCaseInterface.php" />
+        <option value="$PROJECT_DIR$/app/UseCases/Vehicles/OptionFactoryUseCase.php" />
+        <option value="$PROJECT_DIR$/app/UseCases/Vehicles/VehicleOptionUseCase.php" />
+        <option value="$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/VehicleOptionUseCaseInterface.php" />
+        <option value="$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Structural/FlyweightController.php" />
+        <option value="$PROJECT_DIR$/app/UseCases/Vehicles/VehicleRequestUseCase.php" />
+        <option value="$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/VehicleRequestUseCaseInterface.php" />
       </list>
     </option>
   </component>
@@ -214,7 +240,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -267,6 +293,21 @@
               <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="UseCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="UseCases" type="462c0819:PsiDirectoryNode" />
+              <item name="Vehicles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="UseCases" type="462c0819:PsiDirectoryNode" />
+              <item name="Vehicles" type="462c0819:PsiDirectoryNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -488,7 +529,8 @@
       <workItem from="1578854751721" duration="36000" />
       <workItem from="1579441109865" duration="9237000" />
       <workItem from="1579475876466" duration="4943000" />
-      <workItem from="1579962144391" duration="4983000" />
+      <workItem from="1579962144391" duration="5064000" />
+      <workItem from="1580563762067" duration="3817000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]: Added Abstract Factory Pattern.">
       <created>1565470231994</created>
@@ -623,17 +665,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579481865687</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="[feat]: Facade Patterns.">
+      <created>1579968399302</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1579968399302</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73076000" />
+    <option name="totallyTimeSpent" value="76974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.2732475" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.27682403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50187266" side_tool="true" weight="0.25894135" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -742,101 +791,10 @@
     <MESSAGE value="[feat]: Bridge Patterns." />
     <MESSAGE value="[feat]: Composite Patterns." />
     <MESSAGE value="[feat]: Decorator Patterns." />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: Decorator Patterns." />
+    <MESSAGE value="[feat]: Facade Patterns." />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: Facade Patterns." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/Interfaces/GetFormUseCaseInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#184#403#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/Exceptions/GetFormException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="e#190#237#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/Exceptions/AppleFormException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/ManageDocuments/GetDocumentUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-711">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#48#113#0#PHP" expanded="true" />
-            <element signature="e#312#2219#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/AppleFormUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="e#38#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/Interfaces/ImplementationUseCaseInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/Countries/EnrollmentPortugal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding>
-            <element signature="e#287#1036#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/Countries/EnrollmentSpain.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#98#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/HtmlFormUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="e#38#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/Abstracts/EnrollmentFormAbstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/UseCases/Forms/GetFormUseCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
@@ -1067,16 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="37" column="81" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
-          <folding>
-            <element signature="e#33#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/UseCases/WebServices/DocumentManagementUseCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1135,16 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Structural/FacadeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="e#51#124#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/DecoratorControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="992">
@@ -1155,12 +1093,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FlyweightController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Singletons/WhiteDocumentSingleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#102#714#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FacadeControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        <state relative-caret-position="565">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding>
             <element signature="e#65#127#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Structural/FacadeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="48" column="38" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="48" selection-end-column="38" />
+          <folding>
+            <element signature="e#51#124#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FlyweightControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#65#121#0#PHP" expanded="true" />
+            <element signature="e#285#537#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/Vehicles/VehicleOptionUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="e#229#1101#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/VehicleOptionUseCaseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#153#319#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="47" column="77" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
+          <folding>
+            <element signature="e#33#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/Vehicles/OptionFactoryUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/OptionFactoryUseCaseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#244#433#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Structural/FlyweightController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+          <folding>
+            <element signature="e#51#118#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/VehicleRequestUseCaseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/Vehicles/VehicleRequestUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#41#108#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

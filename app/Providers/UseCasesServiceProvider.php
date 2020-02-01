@@ -10,6 +10,12 @@ use App\UseCases\MarkdownFormat\DisplayCommentAsAWebsiteUseCase;
 use App\UseCases\MarkdownFormat\Interfaces\DisplayCommentAsAWebsiteUseCaseInterface;
 use App\UseCases\ProductForm\GetProductFormUseCase;
 use App\UseCases\ProductForm\Interfaces\GetProductFormUseCaseInterface;
+use App\UseCases\Vehicles\Interfaces\OptionFactoryUseCaseInterface;
+use App\UseCases\Vehicles\Interfaces\VehicleOptionUseCaseInterface;
+use App\UseCases\Vehicles\Interfaces\VehicleRequestUseCaseInterface;
+use App\UseCases\Vehicles\OptionFactoryUseCase;
+use App\UseCases\Vehicles\VehicleOptionUseCase;
+use App\UseCases\Vehicles\VehicleRequestUseCase;
 use App\UseCases\WebServices\CatalogueUseCase;
 use App\UseCases\WebServices\DocumentManagementUseCase;
 use App\UseCases\WebServices\FacadeWebServiceUseCase;
@@ -35,7 +41,11 @@ class UseCasesServiceProvider extends ServiceProvider
         DisplayCommentAsAWebsiteUseCaseInterface::class => DisplayCommentAsAWebsiteUseCase::class,
         CatalogueUseCaseInterface::class => CatalogueUseCase::class,
         DocumentManagementUseCaseInterface::class => DocumentManagementUseCase::class,
-        FacadeWebServiceUseCaseInterface::class => FacadeWebServiceUseCase::class
+        FacadeWebServiceUseCaseInterface::class => FacadeWebServiceUseCase::class,
+        // Flyweight
+        OptionFactoryUseCaseInterface::class => OptionFactoryUseCase::class,
+        VehicleOptionUseCaseInterface::class => VehicleOptionUseCase::class,
+        VehicleRequestUseCaseInterface::class => VehicleRequestUseCase::class
     ];
 
     /**
