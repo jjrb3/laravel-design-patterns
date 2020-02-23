@@ -23,7 +23,7 @@ class FlyweightController
     /**
      * @var string
      */
-    public const MERCEDEZ_VEHICHLE = 'MERCEDEZ';
+    public const MERCEDEZ_VEHICLE = 'MERCEDEZ';
 
     /**
      * @var string
