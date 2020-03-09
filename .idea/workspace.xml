@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27687863-a1c3-4821-9f68-bb6939908c6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Structural/ProxyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/DownloadJsonService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Exceptions/DownloadJsonException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Interfaces/DownloadJsonServiceInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Proxys/DownloadJsonServiceProxy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/ProxyControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Clients/ChainResponsibility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Clients/Interfaces/ChainResponsibilityInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Handlers/Abstracts/BasicAbstractHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Handlers/Interfaces/BasicHandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Handlers/ReturnUserRegisterHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Handlers/ValidateCityHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Handlers/ValidateUserEmailHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Handlers/ValidateUserHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Handlers/ValidateUserRoleHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Behavioral/ChainResponsibilityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/ChainResponsibilityControllerTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Structural/FlyweightController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Structural/FlyweightController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +32,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/ProxyControllerTest.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/ChainResponsibilityControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="156">
+              <caret line="56" column="82" selection-start-line="56" selection-start-column="82" selection-end-line="56" selection-end-column="82" />
               <folding>
-                <element signature="e#65#84#0#PHP" expanded="true" />
+                <element signature="e#65#101#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Structural/ProxyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+            <state relative-caret-position="416">
+              <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="45" />
               <folding>
                 <element signature="e#51#101#0#PHP" expanded="true" />
               </folding>
@@ -56,22 +56,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Services/Proxys/DownloadJsonServiceProxy.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Behavioral/ChainResponsibilityController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="62" />
+              <folding>
+                <element signature="e#430#924#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Services/DownloadJsonService.php">
+        <entry file="file://$PROJECT_DIR$/app/Handlers/ValidateUserHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="152">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
-                <element signature="e#32#82#0#PHP" expanded="true" />
+                <element signature="e#32#80#0#PHP" expanded="true" />
+                <element signature="e#238#1203#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,29 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/UseCases/ProductForm/Abstracts/FormElementAbstract.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/ProductForm/Abstracts/FieldCompositeAbstract.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Structural/CompositeController.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/ProductForm/Exceptions/GetProductFormException.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/ProductForm/GetProductFormUseCase.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/CompositeControllerTest.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/MarkdownFormat/Interfaces/InputFormatUseCaseInterface.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/MarkdownFormat/TextInputUseCase.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/MarkdownFormat/TextFormatUseCase.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/MarkdownFormat/PlainTextFilterUseCase.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/MarkdownFormat/DangerousHTMLTagsFilterUseCase.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/MarkdownFormat/MarkdownFormatUseCase.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/MarkdownFormat/Interfaces/DisplayCommentAsAWebsiteInterface.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/MarkdownFormat/Interfaces/DisplayCommentAsAWebsiteUseCaseInterface.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Structural/DecoratorController.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/MarkdownFormat/DisplayCommentAsAWebsiteUseCase.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/DecoratorControllerTest.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/WebServices/VehicleDescriptionUseCase.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/CatalogueUseCaseInterface.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/WebServices/DocumentManagementUseCase.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/DocumentManagementUseCaseInterface.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/FacadeWebServiceUseCaseInterface.php" />
-        <option value="$PROJECT_DIR$/app/UseCases/WebServices/FacadeWebServiceUseCase.php" />
         <option value="$PROJECT_DIR$/app/UseCases/WebServices/CatalogueUseCase.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Structural/FacadeController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FacadeControllerTest.php" />
@@ -160,6 +141,29 @@
         <option value="$PROJECT_DIR$/app/Services/DownloadJsonService.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Structural/ProxyController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/ProxyControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/ChainResponsabilityControllerTest.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Interfaces/HandlerInterface.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/AbstractHandler.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Interfaces/HandlerBasicInterface.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Abstracts/AbstractHandler.php" />
+        <option value="$PROJECT_DIR$/app/Clients/HttpChain.php" />
+        <option value="$PROJECT_DIR$/app/Clients/HttpChainResponsibility.php" />
+        <option value="$PROJECT_DIR$/app/Clients/Interfaces/ChainResponsibilityClientInterface.php" />
+        <option value="$PROJECT_DIR$/app/Clients/Interfaces/HttpChainInterface.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Abstracts/BasicAbstractHandler.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Interfaces/BasicHandlerInterface.php" />
+        <option value="$PROJECT_DIR$/app/Clients/Interfaces/ChainResponsibilityInterface.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/ReturnRegisterHandler.php" />
+        <option value="$PROJECT_DIR$/app/Clients/ChainResponsibility.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Behavioral/ChainResposibilityController.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/ValidateUserEmailHandler.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/ValidateUserRoleHandler.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/ValidateUserAgeHandler.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/ValidateUserHandler.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/ValidateCityHandler.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/ReturnUserRegisterHandler.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Behavioral/ChainResponsibilityController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/ChainResponsibilityControllerTest.php" />
       </list>
     </option>
   </component>
@@ -276,49 +280,41 @@
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Clients" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Structural" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="Clients" type="462c0819:PsiDirectoryNode" />
               <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="Proxys" type="462c0819:PsiDirectoryNode" />
+              <item name="Handlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -363,17 +359,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Creational" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Feature" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,25 +372,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/UseCases/Forms/Exceptions" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Handlers/Abstracts" />
+      <recent name="$PROJECT_DIR$/app/UseCases/ProductForm" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Creational" />
+      <recent name="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational" />
+      <recent name="$PROJECT_DIR$/app/Factories/Oders" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/UseCases/Forms/Exceptions" />
       <recent name="$PROJECT_DIR$/app/UseCases/Forms/Countries" />
       <recent name="$PROJECT_DIR$/app/UseCases/Forms" />
       <recent name="$PROJECT_DIR$/routes/Patterns" />
       <recent name="$PROJECT_DIR$/app/Prototypes" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/UseCases/ProductForm" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers/Creational" />
-      <recent name="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational" />
-      <recent name="$PROJECT_DIR$/app/Factories/Oders" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,7 +464,10 @@
       <workItem from="1580563762067" duration="4029000" />
       <workItem from="1580682091936" duration="17000" />
       <workItem from="1580690054353" duration="855000" />
-      <workItem from="1582411948867" duration="6836000" />
+      <workItem from="1582411948867" duration="6982000" />
+      <workItem from="1583710311705" duration="519000" />
+      <workItem from="1583711184413" duration="291000" />
+      <workItem from="1583711493177" duration="9366000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]: Added Abstract Factory Pattern.">
       <created>1565470231994</created>
@@ -621,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580569827912</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: Proxy Pattern.">
+      <created>1582425904763</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1582425904763</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -657,13 +659,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84894000" />
+    <option name="totallyTimeSpent" value="95216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49551168" visible="true" weight="0.3004292" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49551168" visible="true" weight="0.32546496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50448835" side_tool="true" weight="0.28755364" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -678,7 +679,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.30963856" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.5007153" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.5007153" visible="true" weight="0.27951807" />
       <window_info anchor="bottom" id="Run" order="13" weight="0.3566265" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -775,98 +776,13 @@
     <MESSAGE value="[feat]: Decorator Patterns." />
     <MESSAGE value="[feat]: Facade Patterns." />
     <MESSAGE value="feat: Flyweight Pattern." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Flyweight Pattern." />
+    <MESSAGE value="feat: Proxy Pattern." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Proxy Pattern." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/laravel_design_patterns$ProxyControllerTest.xml" NAME="ProxyControllerTest Coverage Results" MODIFIED="1582420476937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/CompositeControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="e#65#127#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/MarkdownFormat/Interfaces.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="926" column="9" selection-start-line="926" selection-start-column="9" selection-end-line="926" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/MarkdownFormat/Interfaces/DisplayCommentAsAWebsiteUseCaseInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/MarkdownFormat/Interfaces/InputFormatUseCaseInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/MarkdownFormat/TextInputUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#241#458#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/MarkdownFormat/PlainTextFilterUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="e#174#439#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/MarkdownFormat/DisplayCommentAsAWebsiteUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-          <folding>
-            <element signature="e#47#131#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/MarkdownFormat/DangerousHTMLTagsFilterUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/MarkdownFormat/TextFormatUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#242#816#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/MarkdownFormat/MarkdownFormatUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Creational/AbstractFactoryTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
@@ -907,13 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/WebServices/VehicleDescriptionUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/UseCases/WebServices/DocumentManagementUseCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -935,13 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/CatalogueUseCaseInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -973,15 +875,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FlyweightController.php" />
-    <entry file="file://$PROJECT_DIR$/app/Singletons/WhiteDocumentSingleton.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#102#714#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FacadeControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
@@ -1077,9 +970,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/DownloadFileUseCase.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/DownloadFileUseCase.php" />
     <entry file="file://$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1094,26 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#33#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/DownloadJsonService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#32#82#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1176,28 +1047,176 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/ProxyControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="390">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="e#65#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Proxys/DownloadJsonServiceProxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/DownloadJsonService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#32#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="58" />
+          <folding>
+            <element signature="e#33#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Interfaces/BasicHandlerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Clients/Interfaces/ChainResponsibilityInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Abstracts/BasicAbstractHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding>
+            <element signature="e#42#92#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/ValidateUserEmailHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <folding>
+            <element signature="e#32#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Singletons/WhiteDocumentSingleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#102#714#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/CatalogueUseCaseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/WebServices/VehicleDescriptionUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/ValidateUserHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#32#80#0#PHP" expanded="true" />
+            <element signature="e#238#1203#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Clients/ChainResponsibility.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="e#31#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/ReturnUserRegisterHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#32#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/ValidateUserRoleHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+          <folding>
+            <element signature="e#32#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/ValidateCityHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding>
+            <element signature="e#32#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Structural/ProxyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+        <state relative-caret-position="416">
+          <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="45" />
           <folding>
             <element signature="e#51#101#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/Proxys/DownloadJsonServiceProxy.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Behavioral/ChainResponsibilityController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="62" />
+          <folding>
+            <element signature="e#430#924#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/ChainResponsibilityControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="56" column="82" selection-start-line="56" selection-start-column="82" selection-end-line="56" selection-end-column="82" />
+          <folding>
+            <element signature="e#65#101#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
