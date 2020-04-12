@@ -22,6 +22,8 @@ use App\UseCases\WebServices\FacadeWebServiceUseCase;
 use App\UseCases\WebServices\Interfaces\CatalogueUseCaseInterface;
 use App\UseCases\WebServices\Interfaces\DocumentManagementUseCaseInterface;
 use App\UseCases\WebServices\Interfaces\FacadeWebServiceUseCaseInterface;
+use App\UseCases\Words\Interfaces\WordsCollectionUseCaseInterface;
+use App\UseCases\Words\WordsCollectionUseCase;
 use Illuminate\Support\ServiceProvider;
 
 /**
@@ -45,7 +47,9 @@ class UseCasesServiceProvider extends ServiceProvider
         // Flyweight
         OptionFactoryUseCaseInterface::class => OptionFactoryUseCase::class,
         VehicleOptionUseCaseInterface::class => VehicleOptionUseCase::class,
-        VehicleRequestUseCaseInterface::class => VehicleRequestUseCase::class
+        VehicleRequestUseCaseInterface::class => VehicleRequestUseCase::class,
+        // Iterator
+        WordsCollectionUseCaseInterface::class => WordsCollectionUseCase::class
     ];
 
     /**

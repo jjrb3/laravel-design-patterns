@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27687863-a1c3-4821-9f68-bb6939908c6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/ArrayObject/VehicleList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Commands/VehicleCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Behavioral/CommandController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/UseCases/Catalog/CatalogUseCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/CommandControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Behavioral/IteratorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Iterators/AlphabeticalOrderIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/UseCases/Words/Interfaces/WordsCollectionUseCaseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/UseCases/Words/WordsCollectionUseCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/IteratorControllerTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/CommandControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="53" />
               <folding>
                 <element signature="e#64#118#0#PHP" expanded="true" />
               </folding>
@@ -38,47 +39,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Behavioral/CommandController.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/IteratorControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-416">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="352">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
               <folding>
-                <element signature="e#50#90#0#PHP" expanded="true" />
-                <element signature="e#329#1000#0#PHP" expanded="true" />
+                <element signature="e#64#119#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/UseCases/Catalog/CatalogUseCase.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Behavioral/IteratorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="295">
+              <caret line="53" column="24" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="24" />
               <folding>
-                <element signature="e#39#71#0#PHP" expanded="true" />
+                <element signature="e#50#116#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Commands/VehicleCommand.php">
+        <entry file="file://$PROJECT_DIR$/app/UseCases/Words/WordsCollectionUseCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="65" column="10" lean-forward="true" selection-start-line="60" selection-start-column="15" selection-end-line="65" selection-end-column="10" />
+            <state relative-caret-position="406">
+              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+              <folding>
+                <element signature="e#37#81#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ArrayObject/VehicleList.php">
+        <entry file="file://$PROJECT_DIR$/app/Iterators/AlphabeticalOrderIterator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="861">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
               <folding>
-                <element signature="e#34#57#0#PHP" expanded="true" />
+                <element signature="e#32#78#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,13 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/ProxyController.php" />
-        <option value="$PROJECT_DIR$/app/Services/Interfaces/DonwloadInterface.php" />
-        <option value="$PROJECT_DIR$/app/Services/Interfaces/DownloadInterface.php" />
-        <option value="$PROJECT_DIR$/app/Services/Interfaces/DownloadJsonInterface.php" />
-        <option value="$PROJECT_DIR$/app/Services/DonwloadJsonService.php" />
-        <option value="$PROJECT_DIR$/app/Services/Interfaces/DownloadJsonServiceInterface.php" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Services/Proxys/DownloadJsonServiceProxy.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Services/Exceptions/DownloadJsonException.php" />
@@ -167,6 +163,13 @@
         <option value="$PROJECT_DIR$/app/UseCases/Catalog/CatalogUseCase.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Behavioral/CommandController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/CommandControllerTest.php" />
+        <option value="$PROJECT_DIR$/app/UseCases/Words/Interfaces/WordsCollectionUseCaseInterface.php" />
+        <option value="$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Iterators/AlpabeticalOrderIterator.php" />
+        <option value="$PROJECT_DIR$/app/Iterators/AlphabeticalOrderIterator.php" />
+        <option value="$PROJECT_DIR$/app/UseCases/Words/WordsCollectionUseCase.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Behavioral/IteratorController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/IteratorControllerTest.php" />
       </list>
     </option>
   </component>
@@ -258,7 +261,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -284,18 +287,6 @@
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,6 +308,18 @@
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Iterators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="UseCases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -324,7 +327,7 @@
               <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="UseCases" type="462c0819:PsiDirectoryNode" />
-              <item name="Catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="Words" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -370,6 +373,62 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
               <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Foundation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -379,6 +438,12 @@
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
               <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -504,7 +569,8 @@
       <workItem from="1586129135974" duration="1352000" />
       <workItem from="1586131393578" duration="2144000" />
       <workItem from="1586178953141" duration="19000" />
-      <workItem from="1586179620164" duration="8390000" />
+      <workItem from="1586179620164" duration="8469000" />
+      <workItem from="1586643462157" duration="4968000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]: Added Abstract Factory Pattern.">
       <created>1565470231994</created>
@@ -667,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583721858116</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: Command Pattern.">
+      <created>1586190568202</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1586190568202</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -703,12 +776,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111947000" />
+    <option name="totallyTimeSpent" value="116994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49551168" visible="true" weight="0.32761088" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49551168" visible="true" weight="0.3319027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50448835" side_tool="true" weight="0.28755364" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -723,7 +797,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.30963856" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.5007153" visible="true" weight="0.2948403" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.5007153" visible="true" weight="0.34766585" />
       <window_info anchor="bottom" id="Run" order="13" weight="0.3566265" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -822,64 +896,13 @@
     <MESSAGE value="feat: Flyweight Pattern." />
     <MESSAGE value="feat: Proxy Pattern." />
     <MESSAGE value="feat: Chain Responsibility Pattern." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Chain Responsibility Pattern." />
+    <MESSAGE value="feat: Command Pattern." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Command Pattern." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/laravel_design_patterns$ProxyControllerTest.xml" NAME="ProxyControllerTest Coverage Results" MODIFIED="1582420476937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/UseCases/WebServices/Interfaces/FacadeWebServiceUseCaseInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/DecoratorControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="113" column="38" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
-          <folding>
-            <element signature="e#65#127#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FlyweightController.php" />
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FacadeControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="e#65#127#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UseCases/Vehicles/Interfaces/VehicleOptionUseCaseInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#153#319#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Structural/FlyweightControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#65#121#0#PHP" expanded="true" />
-            <element signature="e#285#537#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Creational/AbstractFactoryController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -942,16 +965,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/UseCases/DownloadFileUseCase.php" />
-    <entry file="file://$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="59" selection-end-column="9" />
-          <folding>
-            <element signature="e#33#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1187,13 +1200,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Commands/Intefaces/CommandInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Commands/Intefaces/CommandInterface.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -1204,23 +1211,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Commands/SettlementOrderCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ArrayObject/VehicleList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding>
-            <element signature="e#34#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Commands/SettlementOrderCommand.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Behavioral/ChainResponsibilityController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1228,13 +1219,6 @@
           <folding>
             <element signature="e#51#87#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Commands/VehicleCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="65" column="10" lean-forward="true" selection-start-line="60" selection-start-column="15" selection-end-line="65" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1248,23 +1232,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/ArrayObject/VehicleList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Commands/VehicleCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/UseCasesServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
+          <folding>
+            <element signature="e#33#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/Words/Interfaces/WordsCollectionUseCaseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#48#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Iterators/AlphabeticalOrderIterator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding>
+            <element signature="e#32#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UseCases/Words/WordsCollectionUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding>
+            <element signature="e#37#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Behavioral/CommandController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="198">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="39" selection-end-column="14" />
           <folding>
             <element signature="e#50#90#0#PHP" expanded="true" />
-            <element signature="e#329#1000#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/CommandControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        <state relative-caret-position="135">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="53" />
           <folding>
             <element signature="e#64#118#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Behavioral/IteratorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="24" />
+          <folding>
+            <element signature="e#50#116#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/app/Http/Controllers/Behavioral/IteratorControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding>
+            <element signature="e#64#119#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
