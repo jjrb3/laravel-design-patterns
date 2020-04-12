@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Iterators;
 
 use App\UseCases\Words\WordsCollectionUseCase;
