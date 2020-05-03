@@ -32,7 +32,7 @@ class MediatorControllerTest extends TestCase
     }
 
     /**
-     * Execute partners.
+     * Execute pattern.
      *
      * @return void
      */
